@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import App from './App';
 import './index.css';
 import { Router, Route, browserHistory} from 'react-router'
-import AddForm from './containers/formData'
+import AddForm from './containers/FormData'
 import rootReducer from './reducers'
 import { Provider } from 'react-redux'
 import { createStore, applyMiddleware } from 'redux'

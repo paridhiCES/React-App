@@ -19,7 +19,6 @@ class Table extends Component {
               <th>Address</th>
               <th>Contact</th>
               <th>Email</th>
-              <th></th>
             </tr>
             {_.map(details, function(detail){
                 return (

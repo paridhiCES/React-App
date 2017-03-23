@@ -1,8 +1,8 @@
 import React,{ Component, PropTypes } from 'react'
 import { browserHistory } from 'react-router'
 import TextInput from './TextInput'
-import Button from './button'
-import {formStyle, submitStyle, backBtnStyle} from '../style'
+import Button from './Button'
+import {formStyle, submitStyle, backBtnStyle} from '../css/Style'
 
 
 class AddForm extends Component {

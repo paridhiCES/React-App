@@ -3,7 +3,7 @@ const initialState = {
 }
 const details = (state=initialState, action) => {
   switch (action.type) {
-    case 'ADD_DETAILS':
+    case 'ADD_USER_DETAILS':
         return {
           details: [
             action.data

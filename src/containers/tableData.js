@@ -1,7 +1,7 @@
 import { connect } from 'react-redux'
-import Table from '../components/table'
+import Table from '../components/Table'
 import { bindActionCreators } from 'redux'
-import { getData } from '../actions'
+import { getData } from '../actions/TableAction'
 
 const mapStateToProps = (state) => {
   return {

@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
-import './App.css';
-import Button from './components/button'
-import Table from './containers/tableData'
+import './css/App.css';
+import Button from './components/Button'
+import Table from './containers/TableData'
 import { browserHistory } from 'react-router'
-import { buttonStyle, rootDiv, tableStyle, tableContainer } from './style'
+import { buttonStyle, rootDiv, tableStyle, tableContainer } from './css/Style'
 
 class App extends Component {
   constructor(){

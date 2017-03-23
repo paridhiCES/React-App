@@ -1,5 +1,5 @@
 import React from 'react'
-import { labelStyle, textBoxStyle } from './style'
+import { labelStyle, textBoxStyle } from '../css/Style'
 
 
 const TextInput = ({label, name, value, onChange, validEmail, placeholder}) => {

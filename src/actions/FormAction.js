@@ -1,13 +1,9 @@
+import { getData } from './TableAction'
+import { ADD_USER_DETAILS } from './constants'
+
 export function addDetails (data) {
   return {
-    type: 'ADD_DETAILS',
-    data: data
-  }
-}
-
-export function tableData (data){
-  return {
-    type: 'TABLE_DATA',
+    type: ADD_USER_DETAILS,
     data: data
   }
 }
@@ -26,13 +22,5 @@ export function setData(data) {
         email: data.email
       })
     }).then(response => dispatch(getData()))
-  }
-}
-
-export function getData(){
-  return dispatch => {
-    fetch(`http://localhost:8080/lists`)
-      .then(response => response.json())
-      .then(json =>  dispatch(addDetails(json)))
   }
 }

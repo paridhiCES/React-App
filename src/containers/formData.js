@@ -1,7 +1,7 @@
 import { connect } from 'react-redux'
 import AddForm from '../components/AddForm'
 import { bindActionCreators } from 'redux'
-import { setData } from '../actions'
+import { setData } from '../actions/FormAction'
 
 const mapStateToProps = (state) => {
   return {
