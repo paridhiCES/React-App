@@ -7,8 +7,8 @@ import { browserHistory } from 'react-router'
 import { buttonStyle, rootDiv, tableStyle, tableContainer } from './style'
 
 class App extends Component {
-  constructor(props){
-    super(props);
+  constructor(){
+    super();
     this.onClick = this.onClick.bind(this);
   }
 
@@ -20,7 +20,7 @@ class App extends Component {
     return (
       <div className="App" style={rootDiv}>
         <div>
-          <Button style={buttonStyle} onClick={this.onClick}/>
+          <Button style={buttonStyle} value="Add New User" onClick={this.onClick}/>
         </div>
         <div style={tableContainer}>
           <Table style={tableStyle} />

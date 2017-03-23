@@ -2,7 +2,7 @@ export const buttonStyle = {
   backgroundColor: '#f4511e',
   color: '#FFFFFF',
   width: '200px',
-  padding: '15px',
+  padding: '10px',
   borderRadius: '5px',
   cursor: 'pointer',
   border: 'none',
@@ -30,5 +30,37 @@ export const tableContainer = {
 
 export const tableStyle = {
   width: '100%',
-  overflow: 'scroll'
+  overflow: 'scroll',
+  borderCollapse: 'collapse',
+  tableLayout: 'fixed',
+  wordBreak: 'break-all'
+}
+
+export const formStyle = {
+  width: '80%',
+  boxShadow: '1px 1px 1px 1px darkgrey',
+  padding: '18px',
+  textAlign: 'center',
+  marginLeft: '100px',
+  marginTop: '25px'
+}
+
+export const submitStyle = (isSubmit) => {
+    return {
+      width: '46%',
+      backgroundColor: isSubmit ? '#4CAF50' : '#CCC',
+      color:  isSubmit ? 'white' : 'black',
+      padding: '14px 20px',
+      margin: '8px 0',
+      border: 'none',
+      borderRadius: '4px',
+      cursor: 'pointer',
+      margin: '10px'
+  }
+}
+
+export const backBtnStyle = {
+    padding: '5px',
+    marginLeft: '63px',
+    marginTop: '8px',
 }
