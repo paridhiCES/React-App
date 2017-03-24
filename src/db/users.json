@@ -1,0 +1,74 @@
+{
+  "users": [
+    {
+      "name": "Paridhi Shrivastava",
+      "address": "Bhopal",
+      "contact": "9090909090",
+      "email": "pari.shri1993@gmail.com",
+      "id": 1
+    },
+    {
+      "name": "paridhi",
+      "address": "bhopal",
+      "contact": "klaos",
+      "email": "pari.shri1993@gmail.com",
+      "id": 2
+    },
+    {
+      "name": "paridhi",
+      "address": "bhopal",
+      "contact": "klaos",
+      "email": "pari.shri1993@gmail.com",
+      "id": 3
+    },
+    {
+      "name": "gfs",
+      "address": "pa",
+      "contact": "hja",
+      "email": "gouri@gmail.com",
+      "id": 4
+    },
+    {
+      "name": "znM",
+      "address": "mcn",
+      "contact": "fgf",
+      "email": "aditi1396@gmail.com",
+      "id": 5
+    },
+    {
+      "name": "gudia",
+      "address": "abcd",
+      "contact": "989898999",
+      "email": "paridhi.shrivastava@cesltd.com",
+      "id": 6
+    },
+    {
+      "name": "aaaa",
+      "address": "aaaaaa",
+      "contact": "aaaaaaaaaa",
+      "email": "aditi1396@gmail.com",
+      "id": 7
+    },
+    {
+      "name": "fdvdf",
+      "address": "hvdf",
+      "contact": "kjs",
+      "email": "paridhi.shrivastava@cesltd.com",
+      "id": 8
+    },
+    {
+      "name": "paya;",
+      "address": "klp",
+      "contact": "0-9",
+      "email": "pragya.agrawal.9465@gmail.com",
+      "id": 9
+    },
+    {
+      "name": "ababj",
+      "address": "kjc",
+      "contact": "ksac",
+      "email": "inzemamali13@gmail.com",
+      "id": 10
+    }
+  ]
+}

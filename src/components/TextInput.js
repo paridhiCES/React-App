@@ -3,7 +3,6 @@ import { labelStyle, textBoxStyle } from '../css/Style'
 
 
 const TextInput = ({label, name, value, onChange, validEmail, placeholder}) => {
-  console.log(validEmail)
     return(
       <div>
           <div style={labelStyle}>

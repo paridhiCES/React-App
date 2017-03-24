@@ -1,12 +1,18 @@
+import { ADD_USER_DETAILS } from '../actions/constants'
+
 const initialState = {
   details : []
 }
 const details = (state=initialState, action) => {
+  console.log(state)
   switch (action.type) {
-    case 'ADD_USER_DETAILS':
+    case ADD_USER_DETAILS:
         return {
-          details: [
-            action.data
+          tableReducer: [
+            ...state.tableReducer.details,
+            {
+              details:action.data
+            }
           ]
         }
       break;

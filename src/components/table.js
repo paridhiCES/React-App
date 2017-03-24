@@ -1,8 +1,12 @@
 import React,{ PropTypes, Component } from 'react'
 import _ from 'lodash'
-import '../App.css'
+import '../css/App.css'
 
 class Table extends Component {
+  constructor(){
+    super()
+    console.log('In constructor')
+  }
 
   componentDidMount(){
     this.props.actions.getData()

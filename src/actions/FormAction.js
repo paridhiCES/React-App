@@ -1,7 +1,7 @@
-import { getData } from './TableAction'
 import { ADD_USER_DETAILS } from './constants'
 
 export function addDetails (data) {
+  console.log(data)
   return {
     type: ADD_USER_DETAILS,
     data: data
@@ -10,7 +10,7 @@ export function addDetails (data) {
 
 export function setData(data) {
   return dispatch => {
-    fetch(`http://localhost:8080/lists`, {
+    fetch(`http://localhost:8080/users`, {
       method: "post",
       headers: {
           'Content-Type': 'application/json'
@@ -21,6 +21,6 @@ export function setData(data) {
         contact: data.contact,
         email: data.email
       })
-    }).then(response => dispatch(getData()))
+    }).then(response => dispatch(addDetails(data)))
   }
 }

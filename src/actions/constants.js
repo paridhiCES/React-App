@@ -1,1 +1,2 @@
 export const ADD_USER_DETAILS = 'ADD_USER_DETAILS'
+export const TABLE_ACTIONS = 'TABLE_ACTIONS'

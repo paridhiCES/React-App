@@ -4,8 +4,9 @@ import { bindActionCreators } from 'redux'
 import { getData } from '../actions/TableAction'
 
 const mapStateToProps = (state) => {
+  console.log(state.tableReducer.details)
   return {
-    tableData: state.details.details[0],
+    tableData: state.tableReducer.details,
   }
 }
 

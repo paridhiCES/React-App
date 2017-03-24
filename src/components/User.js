@@ -1,10 +1,9 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
-import './css/App.css';
-import Button from './components/Button'
-import Table from './containers/TableData'
+import '../css/App.css';
+import Button from './Button'
+import Table from '../containers/TableData'
 import { browserHistory } from 'react-router'
-import { buttonStyle, rootDiv, tableStyle, tableContainer } from './css/Style'
+import { buttonStyle, rootDiv, tableStyle, tableContainer } from '../css/Style'
 
 class App extends Component {
   constructor(){
@@ -20,7 +19,9 @@ class App extends Component {
     return (
       <div className="App" style={rootDiv}>
         <div>
-          <Button style={buttonStyle} value="Add New User" onClick={this.onClick}/>
+          <Button style={buttonStyle}
+            value="Add New User"
+            onClick={this.onClick}/>
         </div>
         <div style={tableContainer}>
           <Table style={tableStyle} />
