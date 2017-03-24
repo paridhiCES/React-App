@@ -22,6 +22,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "server": "json-server --watch -p 8080 src/db/users.json",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
