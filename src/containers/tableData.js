@@ -1,18 +1,18 @@
 import { connect } from 'react-redux'
 import Table from '../components/Table'
 import { bindActionCreators } from 'redux'
-import { getData } from '../actions/TableAction'
+import * as userActions from '../actions/UserAction'
 
 const mapStateToProps = (state) => {
-  console.log(state.tableReducer.details)
+  console.log('state Tabledata', state)
   return {
-    tableData: state.tableReducer.details,
+    tableData: state.users,
   }
 }
 
 const mapDispatchToProps = (dispatch) => {
   return {
-    actions: bindActionCreators({ getData }, dispatch)
+    actions: bindActionCreators(userActions, dispatch)
   }
 }
 

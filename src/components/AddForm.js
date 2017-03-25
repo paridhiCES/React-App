@@ -65,7 +65,7 @@ class AddForm extends Component {
     if(this.formValidations(this.state.user)){
       alert('Please Fill the Details')
     }else{
-      this.props.actions.setData(this.state.user);
+      this.props.actions.saveUser(this.state.user);
       browserHistory.push('/')
     }
   }

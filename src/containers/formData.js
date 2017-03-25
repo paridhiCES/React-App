@@ -1,17 +1,17 @@
 import { connect } from 'react-redux'
 import AddForm from '../components/AddForm'
 import { bindActionCreators } from 'redux'
-import { setData } from '../actions/FormAction'
+import * as userActions from '../actions/UserAction'
 
 const mapStateToProps = (state) => {
   return {
-    details: state.details.details,
+  //  users: state.details.details,
   }
 }
 
 const mapDispatchToProps = (dispatch) => {
   return {
-    actions: bindActionCreators({setData}, dispatch)
+    actions: bindActionCreators(userActions, dispatch)
   }
 }
 

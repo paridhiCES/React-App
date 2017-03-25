@@ -1,10 +1,8 @@
 import { combineReducers } from 'redux'
-import details from './Details'
-import tableReducer from './TableReducer'
+import users from './UserReducer'
 
 const demoApp = combineReducers({
-  details: details,
-  tableReducer: tableReducer,
+  users
 })
 
 export default demoApp;

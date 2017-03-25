@@ -5,7 +5,7 @@ import Table from '../containers/TableData'
 import { browserHistory } from 'react-router'
 import { buttonStyle, rootDiv, tableStyle, tableContainer } from '../css/Style'
 
-class App extends Component {
+class User extends Component {
   constructor(){
     super();
     this.onClick = this.onClick.bind(this);
@@ -16,6 +16,7 @@ class App extends Component {
   }
 
   render() {
+    console.log(this.props.tableData)
     return (
       <div className="App" style={rootDiv}>
         <div>
@@ -31,4 +32,4 @@ class App extends Component {
   }
 }
 
-export default App;
+export default User;

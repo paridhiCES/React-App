@@ -6,10 +6,13 @@ import { Router, Route, browserHistory} from 'react-router'
 import AddForm from './containers/FormData'
 import rootReducer from './reducers'
 import { Provider } from 'react-redux'
+import { getData } from './actions/UserAction'
 import { createStore, applyMiddleware } from 'redux'
 import thunk from 'redux-thunk'
 
 let store = createStore(rootReducer, applyMiddleware(thunk))
+
+store.dispatch(getData())
 
 ReactDOM.render(
   <Provider store={store}>
